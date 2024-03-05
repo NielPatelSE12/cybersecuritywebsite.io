@@ -1,7 +1,17 @@
-import Image from "next/image";
+import React from 'react';
+import Navbar from './component/Navigation/Navbar';
 
-export default function Home() {
+
+const Page: React.FC = () => {
   return (
-    <h1>FGCU Cyber Security Club</h1>
+    <div>
+      <Navbar />
+      <div className="container mx-auto mt-4">
+        <h1 className="text-3xl font-bold">FGCU Cyber Security Club</h1>
+      </div>
+    </div>
   );
-}
+};
+
+export default Page;
+
