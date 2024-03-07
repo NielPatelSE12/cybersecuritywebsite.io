@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-blue-400 p-4">
-      <ul className="flex justify-end space-x-4">
+    <nav className="bg-green-300 py-4 px-6"> {/* Reduced padding */}
+      <ul className="flex justify-end space-x-4 text-sm"> {/* Reduced font size */}
         <li>
           <Link href="/home">
-            Home
+            Goals
           </Link>
         </li>
         <li>
