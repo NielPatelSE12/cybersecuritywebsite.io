@@ -18,6 +18,24 @@
     background-color: #45a049;
   }
 
+  /* css for about page title  */
+
+  .aboutUsTitle {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #10B981, #3B82F6);
+    padding: 50px;
+    font-size: 3rem; /* Adjust the font size as needed */
+    text-align: center; /* Center the text */
+  }
+
+
+
+  .introTitle{
+    font-family: cursive;
+    text-align: center;
+  }
+
   
 
   

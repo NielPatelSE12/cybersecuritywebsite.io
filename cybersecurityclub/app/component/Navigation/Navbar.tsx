@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-green-300 py-4 px-6 flex justify-between items-center"> {/* Align items to the center */}
+    <nav className="bg-blue-300 py-4 px-6 flex justify-between items-center"> {/* Align items to the center */}
       {/* Logo */}
       <div>
         <img src='/cyber security logo.jpg' alt="Logo" className="h-24" /> {/* Adjust height as needed */}
