@@ -18,23 +18,78 @@
     background-color: #45a049;
   }
 
+  .bodyBackground {
+    background-image: url(../public/florida-gulf-coast-university_1025.jpg);
+    background-repeat: no-repeat;
+  }
+
   /* css for about page title  */
 
-  .aboutUsTitle {
+  .topHeadBox{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 5px solid turquoise;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pageDiscFont {
     color: transparent;
     background-clip: text;
     background-image: linear-gradient(to right, #10B981, #3B82F6);
-    padding: 50px;
-    font-size: 3rem; /* Adjust the font size as needed */
+    padding: 20px;
+    font-family: cursive;
+    font-size: 4rem; /* Adjust the font size as needed */
     text-align: center; /* Center the text */
   }
 
-
-
-  .introTitle{
+  .fgcuNameFont{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #10B981, #3B82F6);
     font-family: cursive;
-    text-align: center;
+    font-size: 2rem; /* Adjust the font size as needed */
+    text-align: center; /* Center the text */
+
   }
+
+  .pageItemDiscBox {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pageItemBox {
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: white;
+    margin: 5;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Anything with the a href will appear blue like a hyperlink*/
+  a {
+    color: blue;
+  }
+
+  
 
   
 
