@@ -2,8 +2,7 @@
 import React from 'react';
 import Navbar from '../component/Navigation/Navbar';
 import Image from 'next/image';
-import fgcu_image from '/Users/calebnewman/Documents/GitHub/cybersecuritywebsite.io/cybersecurityclub/app/projects/florida-gulf-coast-university_1025.jpg';
-import ncl_logo from '/Users/calebnewman/Documents/GitHub/cybersecuritywebsite.io/cybersecurityclub/public/ncl_logo.png';
+import fgcu_image from '/assets/images/florida-gulf-coast-university_1025.jpg';
 
 interface ImageData {
   src: string; // URL or path to the image
