@@ -58,7 +58,7 @@ const Project: React.FC = () => {
       <Navbar />
       <div style={centerDivStyle}>
         <Rectangle color="white" borderColor='turquoise' text="The FGCU Cybersecurity Club is currently preparing for a Cybersecurity competition hosted by the National Cyber League. This competition will take place over the next several months and involves 10 members of the club. We are excited to gather experience in our clubs first competition and learn more about future opportunities for this type of event." textColor='black' imageData={image1Data} />
-        <Rectangle color="white" borderColor='turquoise' text="We are currently researching the possibility of bring a Department of Defense sponsored course to our university, this course is part of a program called 'Hack for Defense'. The program would give club members an opportunity to work directly with the military to address some of the nations security issues." textColor='black' imageData={image2Data} />
+        <Rectangle color="white" borderColor='turquoise' text="We are currently researching the possibility of bringing a Department of Defense sponsored course to our university, this course is part of a program called 'Hack for Defense'. The program would give club members an opportunity to work directly with the military to address some of the nations security issues." textColor='black' imageData={image2Data} />
       </div>
     
       <>
