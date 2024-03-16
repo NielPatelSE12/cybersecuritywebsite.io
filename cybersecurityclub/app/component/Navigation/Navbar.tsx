@@ -19,6 +19,11 @@ const Navbar: React.FC = () => {
       {/* Navigation links */}
       <ul className="flex justify-end space-x-4 text-sm">
         <li>
+          <Link href="/">
+            <button className="btn">Home</button>
+          </Link> 
+        </li>
+        <li>
           <Link href="/goals">
             <button className="btn">Goals</button>
           </Link>

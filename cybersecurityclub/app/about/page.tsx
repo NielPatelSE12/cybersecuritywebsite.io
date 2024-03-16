@@ -1,6 +1,8 @@
 import Head from 'next/head';
-//import Navbar from './component/Navigation/Navbar';
 import Navbar from '../component/Navigation/Navbar';
+import Image from 'next/image';
+import fgcu_image from '../../public/florida-gulf-coast-university_1025.jpg'
+import React from 'react';
 
 
 export default function About() {
@@ -10,7 +12,7 @@ export default function About() {
         <title>About Us</title>
       </Head>
     
-      <body className='bodyBackground'>
+      <body>
       <div className="min-h-screen flex flex-col"> {/* Set container as a flex container */}
       <Navbar />
 
@@ -35,12 +37,23 @@ export default function About() {
         <div className = "pageItemBox">
           <p id = 'treasurer'>Club Treasurer: Johnny Mai <br></br>Contact: <a href = "jfmai2313@eagle.fgcu.edu">jfmai2313@eagle.fgcu.edu</a></p>
         </div>
+        <> 
+          <div style={{
+            zIndex: -1,
+            position: "fixed",
+            width: "100vw",
+            height: "100vh"
+          }}>
+            <Image 
+              src={fgcu_image}
+              alt="fgcu image"
+              layout="fill"
+              objectFit='cover'
+            />
+          </div>
+        </>
       </div>
-
-        
-
       </body>
-
     </html>
       
     );
