@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+Page under construction image:
+<img className='imageCenter' src='https://m.media-amazon.com/images/I/61hkyDXw8jL._AC_UF894,1000_QL80_.jpg'></img>
+*/
+
 /* styles.css */
 .btn {
     cursor: pointer;
@@ -18,13 +23,7 @@
     background-color: #45a049;
   }
 
-  .bodyBackground {
-    background-image: url(../public/florida-gulf-coast-university_1025.jpg);
-    background-repeat: no-repeat;
-  }
-
-  /* css for about page title  */
-
+  /*For the large box at top of page*/
   .topHeadBox{
     width: auto;
     height: auto;
@@ -37,22 +36,22 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+    /*For the main text in large box at top of page*/
   .pageDiscFont {
     color: transparent;
     background-clip: text;
     background-image: linear-gradient(to right, #10B981, #3B82F6);
     padding: 20px;
-    font-family: cursive;
+    font-weight: bold;
     font-size: 4rem; /* Adjust the font size as needed */
     text-align: center; /* Center the text */
   }
 
+    /*For the FGCU message at bottom of large box at top of page*/
   .fgcuNameFont{
     color: transparent;
     background-clip: text;
     background-image: linear-gradient(to right, #10B981, #3B82F6);
-    font-family: cursive;
     font-size: 2rem; /* Adjust the font size as needed */
     text-align: center; /* Center the text */
 
@@ -82,6 +81,15 @@
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .imageCenter {
+    float: left;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
   }
 
   /* Anything with the a href will appear blue like a hyperlink*/
