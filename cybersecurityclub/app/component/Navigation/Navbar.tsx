@@ -17,30 +17,25 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Navigation links */}
-      <ul className="flex justify-end space-x-4 text-sm">
+      <ul className="flex flex-wrap justify-center ">
         <li>
           <Link href="/">
-            <button className="btn">Home</button>
+            <button className="btn px-4 py-4">Home</button>
           </Link> 
         </li>
         <li>
           <Link href="/goals">
-            <button className="btn">Goals</button>
+            <button className="btn px-4 py-4">Goals</button>
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <button className="btn">About Us</button>
+            <button className="btn px-4 py-4">About Us</button>
           </Link>
         </li>
         <li>
           <Link href="/contact">
-            <button className="btn">Contact</button>
-          </Link>
-        </li>
-        <li>
-          <Link href="/projects">
-            <button className="btn">Projects</button>
+            <button className="btn px-4 py-4">Contact</button>
           </Link>
         </li>
       </ul>

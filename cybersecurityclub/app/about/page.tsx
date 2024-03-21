@@ -13,9 +13,8 @@ export default function About() {
       </Head>
     
       <body>
-      <div className="min-h-screen flex flex-col"> {/* Set container as a flex container */}
-      <Navbar />
-
+      <Navbar></Navbar>
+      <div>
       <div className='topHeadBox'>
         <h1 className='pageDiscFont'>About Us</h1>
         <p className = 'fgcuNameFont'>Flordia Gulf Coast University, Home of the Eagles</p>
@@ -26,32 +25,17 @@ export default function About() {
         </div>
 
         <div className = "pageItemBox">
-          <p id = 'president'>Club President: Niel Patel <br></br>Contact: <a href = "nkpatel5457@eagle.fgcu.edu">nkpatel5457@eagle.fgcu.edu</a></p>
+          <p id = 'president'>Club President: Niel Patel <br></br>Contact: <a href = "mailto: nkpatel5457@eagle.fgcu.edu">nkpatel5457@eagle.fgcu.edu</a></p>
         </div>
         <div className = "pageItemBox">
-          <p id = 'vicePres'>Club Vice President: Caleb Newman <br></br>Contact: <a href = "cjnewman6275@eagle.fgcu.edu">cjnewman6275@eagle.fgcu.edu</a></p>
+          <p id = 'vicePres'>Club Vice President: Caleb Newman <br></br>Contact: <a href = "mailto: cjnewman6275@eagle.fgcu.edu">cjnewman6275@eagle.fgcu.edu</a></p>
         </div>
         <div className = "pageItemBox">
-          <p id = 'secretary'>Club Secretary: William Ward <br></br>Contact: <a href = "wcward3302@eagle.fgcu.edu">wcward3302@eagle.fgcu.edu</a></p>
+          <p id = 'secretary'>Club Secretary: William Ward <br></br>Contact: <a href = "mailto: wcward3302@eagle.fgcu.edu">wcward3302@eagle.fgcu.edu</a></p>
         </div>
         <div className = "pageItemBox">
-          <p id = 'treasurer'>Club Treasurer: Johnny Mai <br></br>Contact: <a href = "jfmai2313@eagle.fgcu.edu">jfmai2313@eagle.fgcu.edu</a></p>
+          <p id = 'treasurer'>Club Treasurer: Johnny Mai <br></br>Contact: <a href = "mailto: jfmai2313@eagle.fgcu.edu">jfmai2313@eagle.fgcu.edu</a></p>
         </div>
-        <> 
-          <div style={{
-            zIndex: -1,
-            position: "fixed",
-            width: "100vw",
-            height: "100vh"
-          }}>
-            <Image 
-              src={fgcu_image}
-              alt="fgcu image"
-              layout="fill"
-              objectFit='cover'
-            />
-          </div>
-        </>
       </div>
       </body>
     </html>

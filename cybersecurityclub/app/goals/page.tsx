@@ -40,24 +40,7 @@ return(
                         <br></br>We apologize for any confusion, please feel free to check regularly as we continue to work towards estabisling the FGCU Cybersecurity 
                         Club! -Cybersecurity Club Leadership
                     </p>
-                    
                 </div>
-
-                <> 
-                <div style={{
-                    zIndex: -1,
-                    position: "fixed",
-                    width: "100vw",
-                    height: "100vh"
-                }}>
-                    <Image 
-                    src={fgcu_image}
-                    alt="fgcu image"
-                    layout="fill"
-                    objectFit='cover'
-                    />
-                </div>
-                </>
             </div>
         </body>
     </html>

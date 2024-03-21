@@ -6,48 +6,35 @@ import React from 'react';
 
 export default function Contact (){
 return(
-<main>
-    <html>
-        <Head>
-            <title>Contact Us</title>
-        </Head>
+    <main>
+        <html>
+            <Head>
+                <title>Contact Us</title>
+            </Head>
 
-        <body>
-            <div className="min-h-screen flex flex-col"> {/* Set container as a flex container */}
-            <Navbar/>
-
-                <div className='topHeadBox'>
-                    <h1 className='pageDiscFont'>Contact Us!</h1>
-                    <p className = 'fgcuNameFont'>Flordia Gulf Coast University, Home of the Eagles</p>
+            <body>
+                <Navbar></Navbar>
+                <div>
+                    <div className='topHeadBox'>
+                        <h1 className='pageDiscFont'>Contact Us!</h1>
+                        <p className = 'fgcuNameFont'>Flordia Gulf Coast University, Home of the Eagles</p>
+                    </div>
+                    <div className='pageItemBox'>
+                        <p>
+                            Any FGCU student interested in joining, check out our social media pages or
+                            <a href = "https://teams.microsoft.com/l/team/19%3ApN6kPrHMs2um_aeBv0L6nzXBS388mIz9oKQyNefYZwM1%40thread.tacv2/conversations?groupId=c61e99e2-e040-4a85-a149-108c0fdd838a&tenantId=f7a5a4ef-4ffa-4c80-bfb3-c12e28872099"
+                            > Join out Microsoft Team!</a>
+                        </p>
+                    </div>
+                    <div className = "pageItemBox">
+                        <p>
+                            Please feel free to contact us by email us <a href = "mailto: wcward3302@eagle.fgcu.edu"
+                            >HERE</a>!
+                        </p>
+                    </div>
                 </div>
-                
-                <div className = "pageItemBox">
-                    <p id = 'contactMessage'> - If you are an FGCU Student interested in joining the FGCU Cybersecurity Club<br></br>
-                        - If you wish to get in touch to plan / discuss the seminars or clinics hosted by the FGCU Cybersecurity club<br></br>
-                        Please don't hesitate to reach out! Contact our secretary and we will invite you to the team or return your message as soon as possible. <br></br>
-                        <br></br>Thank you - Cybersecurity Club Leadership <br></br>
-                        <br></br>Contact info: <a href = "wcward3302@eagle.fgcu.edu">wcward3302@eagle.fgcu.edu</a><br></br>
-                    </p>
-                </div>
-
-                <> 
-                <div style={{
-                    zIndex: -1,
-                    position: "fixed",
-                    width: "100vw",
-                    height: "100vh"
-                }}>
-                    <Image 
-                    src={fgcu_image}
-                    alt="fgcu image"
-                    layout="fill"
-                    objectFit='cover'
-                    />
-                </div>
-                </>
-            </div>
-        </body>
-    </html>
-</main>
-)
+            </body>
+        </html>
+    </main>
+    )
 }
