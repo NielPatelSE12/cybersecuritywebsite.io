@@ -6,7 +6,7 @@
 
 
 /* use to target larger than 500px (desktop)*/
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   /* styles.css */
 body {
   background-image: url('../public/florida-gulf-coast-university_1025.jpg');
@@ -19,10 +19,14 @@ body {
   background-color: grey;
 }
 
+.showHide  { display: block; }
+#leftside > button { display: none; }
+
 .btn {
     cursor: pointer;
     padding: 8px 12px;
     background-color: #4CAF50;
+    margin: 5px;
     color: white;
     border: none;
     border-radius: 4px;
@@ -137,11 +141,14 @@ body {
   height: 100%;
 }
 
+.showHide { display:none; }
+
 .btn {
     cursor: pointer;
     padding: 2px 2px;
     font-size: x-small;
     background-color: #4CAF50;
+    margin: 2px;
     color: white;
     border: none;
     border-radius: 2px;
